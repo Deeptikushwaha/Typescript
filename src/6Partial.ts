@@ -18,11 +18,11 @@ function update2(props: UpdatePropsOptional) {
 
 const user2: User4 = {
   id: '12345',
-  name: 'harshita',
-  age: 22,
+  name: 'harshit',
+  age: 50,
   email: 'fndfvn@gmail.com',
   password: 'password'
 }
 
-// Here we are updating only the name property of the user object. but in last file "index.ts" we have to update all the properties of the UpdateProps.
-update2({ name: 'harshitaaa' });
+// Here we are updating only the name property of the user object. but in last file "pick.ts" we have to update all the properties of the UpdateProps.
+update2({ name: 'harshita' });
