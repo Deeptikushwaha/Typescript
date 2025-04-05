@@ -25,7 +25,7 @@ function user(num:number): boolean{
     if(num>18) return true;
     return false;
 }
-//console.log(user(22));
+console.log(user(22));
 
 
 // Create a function that takes another function as input, and runs it after 1 second.

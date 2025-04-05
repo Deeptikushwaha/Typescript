@@ -5,25 +5,25 @@
 //types can be extended using & operator to combine multiple types together. Can be used to define union types and intersection types.
 //interface can be extended using extends keyword to inherit properties from other interfaces. used to define object types, function types, and array types.
 
-type user1 = {
+type User1 = {
   name: string;
   age: number;
   email: string;
 };
 
-interface user2 {
+interface User2 {
   name: string;
   age: number;
   email: string;
 }
 
-const u1 : user1 = {
+const u1 : User1 = {
   name: "John",
   age: 25,
   email: "johntest@gmail.com"
 };
 
-const u2: user2 = {
+const u2: User2 = {
   name: "Jane",
   age: 30,
   email: "jane@example.com",
